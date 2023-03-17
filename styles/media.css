@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 870px){
+    body {
+        background-color: black;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;    
+    }
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    ul {
+        font-size: 20px;
+        font-weight: 400px;
+    }
+
+    li {
+        margin: 15px;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    p {
+        margin: 0 auto;
+    }
+}
